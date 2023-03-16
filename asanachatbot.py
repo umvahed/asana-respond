@@ -3,7 +3,7 @@ import requests
 
 # Set up the Asana API endpoint and header
 endpoint = "https://app.asana.com/api/1.0/tasks"
-header = {"Authorization": "Bearer 1/767260589883762:a60004b5ceb2e9468fe094c8cdfc907d"}
+header = {"Authorization": "Bearer YOUR_ASANA_ACCESS_TOKEN"}
 
 # Define the function that retrieves the last Asana update
 def get_last_asana_update():
